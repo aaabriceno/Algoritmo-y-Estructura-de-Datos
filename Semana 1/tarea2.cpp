@@ -1,3 +1,7 @@
+/* Hacer un programa que realice uuna busqueda binaria dentro de un array y que
+   imprima True o False si es que el elemento buscado se encuentra o no 
+   respectivamente, y determine la posicion del elemento en el array.*/
+
 #include <iostream>
 using namespace std;
 
