@@ -1,6 +1,5 @@
 #include <iostream>
 #include <stdexcept> // Para lanzar excepciones
-
 using namespace std;
 
 template <class T>

@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 class Pila {
 private:
@@ -22,7 +23,7 @@ public:
     // Método para insertar un elemento en la pila
     bool push(int a) {
         if (estaLlena()) {
-            std::cerr << "La pila está llena." << std::endl;
+            cerr << "La pila está llena." << endl;
             return false;
         }
         if (estaVacia())
@@ -50,14 +51,14 @@ public:
     // Método para imprimir los elementos de la pila
     void imprimirPila() {
         if (estaVacia()) {
-            std::cout << "La pila está vacía." << std::endl;
+            cout << "La pila está vacía." << std::endl;
             return;
         }
-        std::cout << "Elementos en la pila: ";
+        cout << "Elementos en la pila: ";
         for (int* ptr = TOP; ptr >= &elem[0]; ptr--) {
-            std::cout << *ptr << " ";
+            cout << *ptr << " ";
         }
-        std::cout << std::endl;
+        cout << std::endl;
     }
 };
 
@@ -76,7 +77,7 @@ int main() {
     // Eliminar elementos de la pila y mostrarlos
     while (!miPila.estaVacia()) {
         miPila.pop(valor);
-        std::cout << "Elemento retirado de la pila: " << valor << std::endl;
+        cout << "Elemento retirado de la pila: " << valor << std::endl;
     }
 
     return 0;
