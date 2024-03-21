@@ -6,12 +6,13 @@
 using namespace std;
 
 bool busq_bin(int *ini, int *fin, int *&pos, int key) {
+    /*
     if (ini >= fin) 
     {
         cout << "False" << endl; // Imprime "false" si el rango es vacío
         return false;
     }
-
+    */
     int *inicio = ini;
     int *final = fin - 1; // Ajustamos el puntero final para que apunte al último elemento del rango
 
