@@ -122,6 +122,9 @@ int main() {
     lis.pushback(12);
     lis.print();
     cout << endl;
+	lis.pushfront(142);
+    lis.print();
+    cout << endl;
 
     cout << "\nPopfront y popback" << endl;
 	lis.print();
