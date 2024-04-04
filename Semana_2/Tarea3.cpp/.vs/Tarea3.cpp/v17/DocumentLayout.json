@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\AED_PC\\Semana_2\\Tarea3.cpp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9EC5F575-F15C-4CE5-BF3B-3DA52B357F6F}|Tarea3.cpp.vcxproj|C:\\Users\\PC\\AED_PC\\Semana_2\\Tarea3.cpp\\Tarea3.cpp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9EC5F575-F15C-4CE5-BF3B-3DA52B357F6F}|Tarea3.cpp.vcxproj|solutionrelative:Tarea3.cpp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tarea3.cpp.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\AED_PC\\Semana_2\\Tarea3.cpp\\Tarea3.cpp.cpp",
+              "RelativeDocumentMoniker": "Tarea3.cpp.cpp",
+              "ToolTip": "C:\\Users\\PC\\AED_PC\\Semana_2\\Tarea3.cpp\\Tarea3.cpp.cpp",
+              "RelativeToolTip": "Tarea3.cpp.cpp",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAwwIUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-31T19:06:55.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
