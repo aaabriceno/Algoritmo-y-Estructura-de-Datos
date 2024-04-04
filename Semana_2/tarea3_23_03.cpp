@@ -49,7 +49,6 @@ void Elementor::add(int numero) {
     Nodo* insertionPoint = findInsertionPoint(numero);
 
     if (insertionPoint == nullptr) {
-        // Crear un nuevo nodo si la lista está vacía o el número es menor que el primer elemento
         Nodo* newNodo = new Nodo;
         newNodo->ini = &newNodo->array[0];
         newNodo->fin_valido = newNodo->ini;
@@ -59,7 +58,6 @@ void Elementor::add(int numero) {
     }
 
     if (insertionPoint->fin_valido - insertionPoint->ini >= num_elem) {
-        // Si el nodo está lleno, insertar un nuevo nodo antes de él
         Nodo* newNodo = new Nodo;
         newNodo->ini = &newNodo->array[0];
         newNodo->fin_valido = newNodo->ini;
@@ -68,7 +66,6 @@ void Elementor::add(int numero) {
         insertionPoint = newNodo;
     }
 
-    // Insertar el número en la posición adecuada dentro del nodo
     int* pos = insertionPoint->fin_valido;
     while (pos != insertionPoint->ini && numero < *(pos - 1)) {
         *pos = *(pos - 1);
@@ -83,14 +80,12 @@ void Elementor::del(int numero) {
     Nodo* previous = nullptr;
 
     while (current != nullptr) {
-        // Buscamos el elemento en el array del nodo actual
         int* pos = current->ini;
         while (pos != current->fin_valido && *pos != numero) {
             ++pos;
         }
 
         if (pos != current->fin_valido) {
-            // Si encontramos el elemento, lo eliminamos
             while (pos != current->fin_valido - 1) {
                 *pos = *(pos + 1);
                 ++pos;
@@ -104,7 +99,6 @@ void Elementor::del(int numero) {
     }
 
     if (current != nullptr && current->ini == current->fin_valido) {
-        // Si el nodo actual quedó vacío, lo eliminamos
         if (previous != nullptr) {
             previous->next = current->next;
         } else {
