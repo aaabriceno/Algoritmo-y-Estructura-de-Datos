@@ -1,5 +1,7 @@
 #include <iostream>
 #include <chrono>
+#include <cstdlib>
+#include <ctime>
 using namespace std;
 
 void swap(int* a, int* b){
@@ -22,6 +24,7 @@ int* particion(int* low, int* high){
     return(i+1);
 }
 
+
 void quick_sort(int* low, int*high){
     if(low < high){
         int *pi=particion(low,high);
@@ -34,13 +37,13 @@ int main(){
     
     auto start = chrono::high_resolution_clock::now();
     
-    const int size = 1000;
+    const int size = 10000;
     int arr[size];
 
     srand(time(nullptr));
 
 for(int i = 0; i < size; ++i){
-    arr[i] = rand() % 10000;
+    arr[i] = rand() % 10000000;
 }
 
     cout << "\nArray desordenado:" << endl;

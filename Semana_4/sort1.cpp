@@ -1,3 +1,4 @@
+/*Prueba de tiempo con Quick Sort (Tradicional)*/
 #include <iostream>
 #include <chrono>
 using namespace std;
