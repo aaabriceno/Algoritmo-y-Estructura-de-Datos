@@ -69,14 +69,12 @@ void quick_sort::ordenar(int arr[], int low, int high, comparacion* cmp){
 
 int main(){
     auto start = chrono::high_resolution_clock::now();
-    
     const int size = 100;
     int arr[size];
-    
     srand(time(nullptr));
 
     for(int i = 0; i < size; ++i){
-        arr[i] = rand() % 1000;
+        arr[i] = rand() % 100;
     }
 
     cout << "Arreglo sin ordenar:" << endl;
