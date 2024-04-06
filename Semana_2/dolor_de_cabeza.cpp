@@ -44,7 +44,7 @@ bool bin_bus_del(int *ini, int *fin, int *& pos, int n){
             fin = medio - 1; 
         }
     }
-    cout << "No se encontro el valor " << n << endl;
+    //cout << "No se encontro el valor " << n << endl;
     return false; 
 }
 
@@ -81,8 +81,9 @@ void elementor::print() {
             } else {
                 cout << *p << " ";
             }
-        }
-        cout << " ] => " << endl;
+        }   
+        cout << " ] -> ";
+        cout <<endl;
         act = act->next; // Avanzamos al siguiente elementor
     }
 }
@@ -191,7 +192,7 @@ void elementor::del(int a){
     int *p = nullptr;
     if(pos->next == nullptr){
         if(*pos->ini == a){
-            cout << "Eliminando elemento " << *pos->arr << endl;
+            //cout << "Eliminando elemento " << *pos->arr << endl;
             for(int *i = pos->arr; i < pos->arr + pos->tam_act; i++){
                 *i = *(i + 1);
             }
@@ -199,12 +200,12 @@ void elementor::del(int a){
             *(pos->arr +pos-> tam_act) = -1;
             pos->fin--;
         } else if(*pos->fin == a){
-            cout << "Eliminando elemento " << *pos->fin << endl;
+            //cout << "Eliminando elemento " << *pos->fin << endl;
             *pos->fin = -1;
             pos->fin--;
             pos->tam_act--;
         } else if(bin_bus_del(pos->ini, pos->fin, p, a)){
-            cout << "Eliminando elemento " << a << endl;
+            //cout << "Eliminando elemento " << a << endl;
             for(int *i = p; i < p + pos->tam_act; i++){
                 *i = *(i + 1);
             }
@@ -215,7 +216,7 @@ void elementor::del(int a){
     }else {
         if(*pos->ini == a){
             int tmp = *pos->next->ini;
-            cout << "Eliminando elemento " << *pos->arr << endl;
+            //cout << "Eliminando elemento " << *pos->arr << endl;
             for(int *i = pos->arr; i < pos->arr + pos->tam_act; i++){
                 *i = *(i + 1);
             }
@@ -223,12 +224,11 @@ void elementor::del(int a){
             pos->next->del(tmp);
         } else if(*pos->fin == a){
             int tmp = *pos->next->fin;
-            cout << "Eliminando elemento " << *pos->fin << endl;
+            //cout << "Eliminando elemento " << *pos->fin << endl;
             *pos->fin = *pos->next->ini;
             pos->next->del(*pos->next->ini);
         } else if(bin_bus_del(pos->ini, pos->fin, p, a)){
-            
-            cout << "Eliminando elemento " << a << endl;
+            //cout << "Eliminando elemento " << a << endl;
             for(int *i = p; i < p + pos->tam_act; i++){
                 *i = *(i + 1);
             }
@@ -240,26 +240,45 @@ void elementor::del(int a){
 }
 
 int main(){
-    elementor num;
-    
-    num.add(6);
-    num.add(2);
-    num.add(12);
-    num.add(0);
-    num.add(10);
-    num.add(1);
-    num.add(9);
-    num.add(9);
-    num.add(90);
-    num.add(25);
-    num.add(89);
-    num.add(6);
-    num.add(3);
-    num.add(92);
-    num.print();
-    
-    //num.del(2);
-    //num.del(25);
-    //num.print();
+    elementor e;
+    cout << "\nFuncion add"<<endl;
+    e.print();
+    e.add(6);
+    e.print();
+    e.add(2);
+    e.print();
+    e.add(12);
+    e.print();
+    e.add(0);
+    e.print();
+    e.add(10);
+    e.print();
+    e.add(1);
+    e.print();
+    e.add(9);
+    e.print();
+    e.add(9);
+    e.print();
+    e.add(90);
+    e.print();
+    e.add(912);
+    e.print();
+    e.add(25);
+    e.print();
+    e.add(89);
+    e.print();
+    e.add(6);
+    e.print();
+    e.add(3);
+    e.print();
+    e.add(92);
+    e.print();
+    cout << "\nFuncion del" << endl;
+    e.del(25);
+    e.print();
+    e.del(0);
+    e.print();
+    e.del(89);
+    e.print();
     return 0;
 }
