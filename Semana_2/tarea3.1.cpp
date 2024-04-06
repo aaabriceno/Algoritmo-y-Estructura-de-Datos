@@ -8,12 +8,12 @@ int * mid(int * a, int * b){
 void bin_bus(int *ini, int *fin, int *& pos, int n){
     if (n < *ini) {
         pos = ini;
-        cout << n << " se insertara al principio del array" << endl;
+        //cout << n << " se insertara al principio del array" << endl;
         return;
     }
     if (n > *fin) {
         pos = fin + 1;
-        cout << n << " se insertara al final del array" << endl;
+        //cout << n << " se insertara al final del array" << endl;
         return;
     }
     int *medio = mid(ini, fin);
@@ -29,7 +29,7 @@ void bin_bus(int *ini, int *fin, int *& pos, int n){
         medio = mid(ini, fin);
     }
     pos = ini;
-    cout << n << " se insertara entre " << *(ini - 1) << " y " << *ini << endl;
+    //cout << n << " se insertara entre " << *(ini - 1) << " y " << *ini << endl;
 }
 
 bool bin_bus_del(int *ini, int *fin, int *& pos, int n){
@@ -257,5 +257,9 @@ int main(){
     num.add(3);
     num.add(92);
     num.print();
+    
+    //num.del(2);
+    //num.del(25);
+    //num.print();
     return 0;
 }
