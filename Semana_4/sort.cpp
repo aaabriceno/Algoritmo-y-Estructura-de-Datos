@@ -32,19 +32,17 @@ void quick_sort(int* low, int*high){
         quick_sort(pi+1,high);
     }
 }
-
 int main(){
     
     auto start = chrono::high_resolution_clock::now();
-    
-    const int size = 10000;
+    const int size = 100;
     int arr[size];
 
     srand(time(nullptr));
 
-for(int i = 0; i < size; ++i){
-    arr[i] = rand() % 10000000;
-}
+    for(int i = 0; i < size; ++i){
+        arr[i] = rand() % 1000;
+    }
 
     cout << "\nArray desordenado:" << endl;
     for (int i = 0; i < size; i++){
