@@ -5,7 +5,7 @@ int * mid(int * a, int * b){
     return a + (b - a) /2;
 }
 
-void bin_bus(int *ini, int *fin, int *& pos, int n){
+void busq_bin(int *ini, int *fin, int *& pos, int n){
     if (n < *ini) {
         pos = ini;
         //cout << n << " se insertara al principio del array" << endl;
@@ -137,7 +137,7 @@ void elementor::add(int a) {
             }
         } else {
             int *p = nullptr;
-            bin_bus(pos->ini, pos->fin, p, a);
+            busq_bin(pos->ini, pos->fin, p, a);
             insertar_elem(p, a);
         }
     } else if (pos->tam_act == 10 && pos->next == nullptr){
@@ -150,7 +150,7 @@ void elementor::add(int a) {
         new_elementor->next = pos->next;
         pos->next = new_elementor;
         int *p = nullptr;
-        bin_bus(ini, fin, p, a);
+        busq_bin(ini, fin, p, a);
         for (int *i = fin; i > p; --i) {
             *i = *(i - 1);
         }
@@ -159,7 +159,7 @@ void elementor::add(int a) {
     } else if(pos->tam_act == 10 && pos->next != nullptr){
         int tmp = *(pos->fin);
         int *p = nullptr;
-        bin_bus(ini, fin, p, a);
+        busq_bin(ini, fin, p, a);
         for (int *i = fin; i > p; --i) {
             *i = *(i - 1);
         }
@@ -179,7 +179,7 @@ void elementor::add(int a) {
             }
         } else {
             int *p = nullptr;
-            bin_bus(pos->ini, pos->fin, p, a);
+            busq_bin(pos->ini, pos->fin, p, a);
             insertar_elem(p, a);
         }
     }
