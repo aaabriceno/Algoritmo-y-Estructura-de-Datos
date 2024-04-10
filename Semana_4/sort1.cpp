@@ -1,4 +1,4 @@
-/*Prueba de tiempo con Quick Sort (Tradicional)*/
+//Metodo de ordenancion basico con punteros
 #include <iostream>
 #include <chrono>
 using namespace std;

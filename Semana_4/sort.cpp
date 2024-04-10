@@ -1,3 +1,4 @@
+//Metodo de ordenancion basico con punteros
 #include <iostream>
 #include <chrono>
 #include <cstdlib>
@@ -66,19 +67,19 @@ int main(){
         arr[i] = rand() % 1000;
     }
 
-    cout << "\nArray desordenado:" << endl;
+    cout << "\n\nArray desordenado:" << endl;
     for (int i = 0; i < size; i++){
         cout << arr[i] << " ";
     }
 
-    cout << "\nArray ordenado ascendente:" << endl;
+    cout << "\n\nArray ordenado ascendente:" << endl;
     quick_sort_asc(arr, arr + size - 1);
 
     for (int i = 0; i < size; i++){
         cout << arr[i] << " ";
     }
 
-    cout << "\nArray ordenado descendente:" << endl;
+    cout << "\n\nArray ordenado descendente:" << endl;
     quick_sort_desc(arr, arr + size - 1);
 
     for (int i = 0; i < size; i++){
