@@ -1,4 +1,4 @@
-//Método de ordenamiento Quicksort con funtores(templates)
+//Método de ordenamiento Quicksort con funtores(templates) - sin inline
 #include <iostream>
 #include <chrono>
 #include <cstdlib>
@@ -52,7 +52,7 @@ void quickSort(T arr[], int low, int high, Functor compara){
 
 int main(){
     auto start = chrono::high_resolution_clock::now();
-    const int size = 100;
+    const int size = 10000;
     int arr[size];
 
     srand(time(nullptr));
@@ -85,8 +85,8 @@ int main(){
     }
     cout << endl;
 
-    auto end = std::chrono::high_resolution_clock::now();
-    auto duration = chrono::duration_cast<chrono::milliseconds>(end - start);
-    cout << "\nTiempo:\nEl programa tardo " << duration.count() << " milisegundos en ejecutarse.\n";
+    auto end = chrono::high_resolution_clock::now();
+    auto duration = chrono::duration_cast<chrono::microseconds>(end - start);
+    cout << "\nTiempo:\nEl programa tardo " << duration.count() << " microsegundos en ejecutarse.\n";
     return 0;
 }
