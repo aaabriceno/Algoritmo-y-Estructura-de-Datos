@@ -1,4 +1,4 @@
-//Método de ordenamiento Quicksort con funtores(templates) y macro - inline
+//Método de ordenamiento Quicksort con funtores(templates) macro - con inline
 #include <iostream>
 #include <ctime>
 #include <chrono>
