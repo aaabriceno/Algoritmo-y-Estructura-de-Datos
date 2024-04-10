@@ -1,3 +1,4 @@
+//Método de ordenamiento Quicksort con funtores(templates)
 #include <iostream>
 #include <chrono>
 #include <cstdlib>
