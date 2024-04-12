@@ -20,8 +20,8 @@ struct cgreater
     }
 };
 
-template <class T, class Functor>
-inline void swap(T &a, T &b, Functor compara)
+template <class T>
+inline void cambia(T &a, T &b)
 {
     T temp = a;
     a = b;
@@ -36,10 +36,10 @@ int particion(T arr[],int low, int high, Functor compara){
     for (int j = low; j <= high; j++){
         if (compara.cmp(arr[j], pivote)){
             i++;
-            swap(arr[i],arr[j],compara);
+            cambia(arr[i],arr[j]);
         }
     }
-    swap(arr[i + 1], arr[high],compara);
+    cambia(arr[i + 1], arr[high]);
     return i + 1;
 }
 template <class T, class Functor>
