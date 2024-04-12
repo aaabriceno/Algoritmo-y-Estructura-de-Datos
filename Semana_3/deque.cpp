@@ -1,5 +1,5 @@
 #include <iostream>
-
+using namespace std;
 template <class T>
 class Cdeque {
     T* map[10];
@@ -123,45 +123,58 @@ int main() {
     
     // Push manualmente elementos en la parte delantera y trasera
     d1.push_back(1);
-    d1.push_front(1);
+    d1.push_front(0);
     d1.push_back(2);
-    d1.push_front(2);
+    d1.push_front(12);
     d1.push_back(3);
-    d1.push_front(3);
+    d1.push_front(13);
     d1.push_back(4);
-    d1.push_front(4);
+    d1.push_front(14);
     d1.push_back(5);
-    d1.push_front(5);
+    d1.push_front(15);
     d1.push_back(6);
-    d1.push_front(6);
+    d1.push_front(16);
+    d1.push_back(7);
+    d1.push_back(8);
+    d1.push_back(9);
+    d1.push_back(10);
+    d1.push_back(11);
+
 
     int s = d1.size();
 
     // Imprimir todo el deque en una sola línea
-    std::cout << "Deque: ";
+    cout << "Deque: ";
     for (int i = 0; i < s; i++)
         std::cout << d1[i] << " ";
-    std::cout << "\n";
+    cout << "\n";
 
     // Pop manualmente elementos de la parte delantera y trasera
-    for (int i = 0; i < s / 3; i++) {
+    /*
+    for (int i = 0; i < s / 1; i++) {
         std::cout << d1.pop_front() << " ";
         std::cout << d1.pop_back() << " ";
     }
     std::cout << "\n";
 
     // Imprimir el deque después de los pops
+    
     std::cout << "Deque después de pops: ";
     for (int i = 0; i < d1.size(); i++)
         std::cout << d1[i] << " ";
     std::cout << "\n";
-    
+    */
     // Modificar un elemento y volver a imprimir todo el deque
-    d1[2] = 88;
-    std::cout << "Deque después de modificar el elemento 7: ";
+    int num, n;
+    
+    cout << "Ingrese el indice a modificar y el numero por el que desea cambiar: "; cin >> num; cin >> n;
+    cout << "Deque después de modificar el elemento "<< num << ": ";
+    d1[num] = n;
     for (int i = 0; i < d1.size(); i++)
-        std::cout << d1[i] << " ";
-    std::cout << "\n";
+    {    
+        cout << d1[i] << " ";
+    }
+    cout << "\n";
 
     return 0;
 }
