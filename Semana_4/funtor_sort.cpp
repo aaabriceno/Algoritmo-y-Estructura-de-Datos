@@ -18,25 +18,25 @@ struct cgreater{
     }
 };
 
-template <class T, class Functor>
-void swap(T &a, T &b, Functor compara){
+template <class T>
+void cambia(T &a, T &b){
     T temp = a;
     a = b;
     b = temp;
 }
 
 template <class T, class Functor>
-int particion(T arr[],int low, int high, Functor compara){
+int particion(T arr[], int low, int high, Functor compara){
     T pivote = arr[high];
     int i = low - 1;
 
-    for (int j = low; j <= high; j++){
+    for (int j = low; j < high; j++){ // Corrección del límite del bucle
         if (compara.cmp(arr[j], pivote)){
             i++;
-            swap(arr[i],arr[j],compara);
+            cambia(arr[i], arr[j]);
         }
     }
-    swap(arr[i + 1], arr[high],compara);
+    cambia(arr[i + 1], arr[high]);
     return i + 1;
 }
 
@@ -52,13 +52,13 @@ void quickSort(T arr[], int low, int high, Functor compara){
 
 int main(){
     auto start = chrono::high_resolution_clock::now();
-    const int size = 10000;
+    const int size = 30;
     int arr[size];
 
     srand(time(nullptr));
 
     for (int i = 0; i < size; i++){
-        arr[i] = rand() % 100;
+        arr[i] = rand() % 40;
     }
 
     cout << "Arreglo sin ordenar:" << endl;
