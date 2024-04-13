@@ -217,6 +217,7 @@ int main()
 {
     elementor e;
     cout << "Agregar elementos a la lista: "<< endl;
+    /*
     e.add(0);
     e.add(1);
     e.add(2);
@@ -236,10 +237,24 @@ int main()
     e.add(21);
     e.add(8);
     e.print();
-
-    cout << "Eliminar elementos a la lista: "<< endl;
+    */
+    
+    /*
     e.del(2);
     e.del(0);
     e.del(4);
     e.print();
+    */
+
+   for(int i = 100; i <= 500; i++){
+        e.add(i);
+   }
+   e.print();
+    cout << "\nEliminar elementos a la lista: "<< endl;
+   for (int i = 100; i <= 500; i++){
+    if(i % 2){
+        e.del(i);
+    }
+   }
+   e.print();
 }
