@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "tarea-tarea1",
+      "appliesTo": "Semana_1/tarea1.cpp",
+      "type": "launch"
+    }
+  ]
+}
