@@ -33,8 +33,11 @@ bool pila_linked_list::push(int n){
 }
 
 bool pila_linked_list::pop(int &n){
-    Node* aux = top;
-
+    Node* aux = top; 
+    n = aux -> dato;
+    top = aux -> next;
+    delete aux;
+    return true;
 }
 
 void pila_linked_list::print(){
@@ -51,7 +54,7 @@ void pila_linked_list::print(){
 
 int main(){
     pila_linked_list p;
-    cout << "Metodo push en pila_linked_list: " << endl;
+    cout << "Agregando elementos (push) - Pila en Lista enlazada: " << endl;
     p.push(10);
     p.push(20);
     p.push(30);
@@ -61,8 +64,30 @@ int main(){
     p.push(70);
     p.push(80);
 
-
-    //cout << "Imprimir elementos de la pila: " << endl;
+    cout << "Imprimir elementos de la pila: " << endl;
     p.print();
+
+    cout << "Eliminando elementos (pop) - Pila en Lista enlazada: " << endl;
+    int x, cant;
+    cout << "Ingrese cantida de elementos a eliminar: "; cin >> cant;
+    for (int i = 0; i < cant; ++i){
+        if(p.pop(x)){
+            cout << "Elemento eliminado: " << x << endl;
+        }
+        else{
+            cout << "Pila vacia... " << endl;
+            break;
+        }
+    }
+    
+    /*
+    p.pop(x);
+    p.pop(x);
+    p.pop(x);
+    */
+    cout << "Elementos restantes: " << endl;
+    p.print();
+    
+    
     return 0;
 }
