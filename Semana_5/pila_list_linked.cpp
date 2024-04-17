@@ -45,14 +45,14 @@ bool pila_linked_list::pop(int &n){
 
 void pila_linked_list::print(){
     Node* actual = top;
-    if(top == nullptr){
+    if(actual == nullptr){
         cout << "La pila esta vacia..." << endl;
     }
     while(actual != nullptr){
-        cout << actual -> dato << " ";
+        cout << actual -> dato << " -> ";
         actual = actual -> next;
     }
-    cout << endl;
+    cout << "NULL"<< endl;
 }
 
 int main(){
@@ -100,8 +100,6 @@ int main(){
     p.pop(x);
     */
     cout << "Elementos restantes: " << endl;
-    p.print();
-    
-    
+    p.print();   
     return 0;
 }
