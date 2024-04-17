@@ -33,6 +33,9 @@ bool pila_linked_list::push(int n){
 }
 
 bool pila_linked_list::pop(int &n){
+    if( top == nullptr){
+        return false;
+    }
     Node* aux = top; 
     n = aux -> dato;
     top = aux -> next;
@@ -55,22 +58,34 @@ void pila_linked_list::print(){
 int main(){
     pila_linked_list p;
     cout << "Agregando elementos (push) - Pila en Lista enlazada: " << endl;
+    
+    int cant1;
+    cout << "Ingrese la cantidad de elementos a agregar: "; cin >> cant1;
+    
+    for (int i = 0; i < cant1; i++){
+        if (p.push(i)){
+            cout << "Elemento agregado: " << i << endl;
+        }
+        else{
+            break;
+        }
+    }
+    /*
     p.push(10);
     p.push(20);
     p.push(30);
     p.push(40);
-    p.push(50);
-    p.push(60);
-    p.push(70);
     p.push(80);
-
+    */
     cout << "Imprimir elementos de la pila: " << endl;
     p.print();
 
     cout << "Eliminando elementos (pop) - Pila en Lista enlazada: " << endl;
-    int x, cant;
-    cout << "Ingrese cantida de elementos a eliminar: "; cin >> cant;
-    for (int i = 0; i < cant; ++i){
+    
+    int x, cant2;
+    cout << "Ingrese cantida de elementos a eliminar: "; cin >> cant2;
+    
+    for (int i = 0; i < cant2; ++i){
         if(p.pop(x)){
             cout << "Elemento eliminado: " << x << endl;
         }
@@ -79,7 +94,6 @@ int main(){
             break;
         }
     }
-    
     /*
     p.pop(x);
     p.pop(x);
