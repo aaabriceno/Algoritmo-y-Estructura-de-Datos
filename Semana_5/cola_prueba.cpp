@@ -110,9 +110,8 @@ int main() {
     cola.pop(a);
     cola.pop(a);
     cola.pop(a);
+    cola.pop(a); 
     cola.pop(a);
-    cola.pop(a);
-    //cola.pop(a);
     //cola.pop(a);
     //cola.pop(a);
     cola.print();
