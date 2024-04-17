@@ -112,8 +112,6 @@ int main() {
     cola.pop(a);
     cola.pop(a); 
     cola.pop(a);
-    //cola.pop(a);
-    //cola.pop(a);
     cola.print();
     
     cola.push(111);
