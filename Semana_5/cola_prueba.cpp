@@ -6,6 +6,7 @@ public:
     int arr[10];
     int *head = nullptr;
     int *tail = nullptr;
+    bool last_operation_push = false; // Booleano para indicar la última operación (push/pop)
     bool push(int n);
     bool pop(int &n);
     void print();
@@ -28,6 +29,7 @@ bool cola_en_array::push(int n) {
         tail++;
     }
     *tail = n;
+    last_operation_push = true; // La última operación fue un push
     return true;
 }
 
@@ -48,6 +50,7 @@ bool cola_en_array::pop(int &n) {
         head = nullptr;
         tail = nullptr;
     }
+    last_operation_push = false; // La última operación fue un pop
     return true;
 }
 
@@ -57,17 +60,31 @@ void cola_en_array::print() {
         return;
     }
     cout << "Elementos en la cola: ";
-    int *current = head;
-    while (current != tail) {
-        cout << *current << " ";
-        if (current == arr + 9) {
-            current = arr;
-        }
-        else {
-            current++;
-        }
+    if (last_operation_push) {
+        int *current = tail;
+        do {
+            cout << *current << " ";
+            if (current == arr) {
+                current = arr + 9;
+            }
+            else {
+                current--;
+            }
+        } while (current != head);
+        cout << *current << endl;
+    } else {
+        int *current = head;
+        do {
+            cout << *current << " ";
+            if (current == arr + 9) {
+                current = arr;
+            }
+            else {
+                current++;
+            }
+        } while (current != tail);
+        cout << *current << endl;
     }
-    cout << *current << endl;
 }
 
 int main() {
