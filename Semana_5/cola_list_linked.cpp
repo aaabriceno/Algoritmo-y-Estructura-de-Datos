@@ -24,14 +24,28 @@ bool cola_linked_list::push(int n){
         tail = nuevo_nodo;
     }
     else{
-        tail -> next= nuevo_nodo;
+        tail -> next= nuevo_nodo; 
         tail = nuevo_nodo;
     }
+    //tail = nuevo_nodo;
     return true;
 }
 
 bool cola_linked_list::pop(int &n){
-
+    if(head == nullptr){
+        return false;
+    }
+    n = head->dato;
+    Nodo* aux = head; 
+    if(head == tail){
+        head = nullptr;
+        tail = nullptr;
+    }
+    else{
+        head = head -> next;
+    }
+    delete aux;
+    return true;
 }
 
 void cola_linked_list::print(){
@@ -50,7 +64,7 @@ int main(){
     cola_linked_list c;
     cout << "Agrengando elementos (push) - Cola en Lista enlazada: " << endl;
     int cant1;
-    cout << "Ingrese la cantidad de elementos que desea ingresar: " ; cin>> cant1;
+    cout << "Ingrese la cantidad de elementos que desea agregar: " ; cin>> cant1;
     for (int i = 0; i < cant1; i++){
         if(c.push(i)){
             cout << "Agregando elemento: " << i << endl;
@@ -61,6 +75,19 @@ int main(){
     }
     cout << "Imprimiendo cola en lista enlazada: " << endl;
     c.print();
-
+    
+    cout << "Eliminando elementos (pop) - Cola en Lista enlazada: " << endl;
+    int a, cant2;
+    cout << "Ingrese cantida de elementos a eliminar: "; cin >> cant2;
+    for (int i = 0; i < cant2;++i){
+        if(c.pop(a)){
+            cout << "Elemento eliminado:" << a << endl;
+        }
+        else{
+            cout << "Pila vacia: " << endl;
+            break;
+        }
+    }
+    c.print();
     return 0;
 }
