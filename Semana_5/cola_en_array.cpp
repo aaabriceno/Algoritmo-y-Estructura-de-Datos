@@ -72,8 +72,21 @@ void cola_en_array::print() {
 
 int main() {
     cola_en_array cola;
-
+    cout << "Agregando elementos (push) - Cola en array " << endl;
+    int cant1;
+    cout << "Ingrese la cantidad de elementos a ingresar: "; cin>> cant1;
     // Agregar elementos a la cola
+    for (int  i = 0; i < cant1; i++){
+        if (cola.push(i)){
+            cout << "Agregando elemento: " << i << endl;
+        }
+        else{
+            break;
+        }
+    }
+    cout << "Imprimiendo cola en lista enlazada: " << endl;
+    cola.print();
+    /*
     cola.push(10);
     cola.push(20);
     cola.push(30);
@@ -85,8 +98,22 @@ int main() {
     cola.push(60);
     cola.push(12);
     //cola.push(13);
+    */
+    cout << "Eliminando elementos (pop) - Cola en Lista enlazada: " << endl;
+    int a, cant2;
+    cout << "Ingrese cantida de elementos a eliminar: "; cin >> cant2;
+    for (int i = 0; i < cant2;++i){
+        if(cola.pop(a)){
+            cout << "Elemento eliminado:" << a << endl;
+        }
+        else{
+            cout << "Pila vacia: " << endl;
+            break;
+        }
+    }
+    cout << "Imprimiendo cola en lista enlazada: " << endl;
     cola.print();
-  
+    /*
     int a;
     cola.pop(a);
     cola.pop(a);
@@ -99,12 +126,11 @@ int main() {
     //cola.pop(a);
     //cola.pop(a);
     cola.print();
-    
+    */
     cola.push(111);
     cola.push(112);
     cola.push(113);
-    cola.push(114);
-    cola.push(115);
+    
     cola.print();
     return 0;
 }
