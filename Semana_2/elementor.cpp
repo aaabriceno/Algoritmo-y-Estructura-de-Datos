@@ -1,3 +1,4 @@
+/*Lista enlazada con array dentro ordenado entre todos los elementos agregados y eliminados*/
 #include <iostream>
 using namespace std;
 
