@@ -20,7 +20,6 @@ private:
     struct StackNode {
         T data;
         StackNode* next;
-
         StackNode(const T& newData, StackNode* nextNode)
             : data(newData), next(nextNode) {}
     };
