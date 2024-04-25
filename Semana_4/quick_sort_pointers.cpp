@@ -39,7 +39,6 @@ void quick_sort(int* low, int*high, int arr[], int tam){
 }
 
 int main(){
-    
     auto start = chrono::high_resolution_clock::now();
     
     int arr[]={1,9,2,8,3,7,4,6,5,0};
