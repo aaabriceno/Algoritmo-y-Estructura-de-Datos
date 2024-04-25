@@ -86,19 +86,7 @@ int main() {
     }
     cout << "Imprimiendo cola en lista enlazada: " << endl;
     cola.print();
-    /*
-    cola.push(10);
-    cola.push(20);
-    cola.push(30);
-    cola.push(100);
-    cola.push(90);
-    cola.push(80);
-    cola.push(70);
-    cola.push(50);
-    cola.push(60);
-    cola.push(12);
-    //cola.push(13);
-    */
+
     cout << "Eliminando elementos (pop) - Cola en Lista enlazada: " << endl;
     int a, cant2;
     cout << "Ingrese cantida de elementos a eliminar: "; cin >> cant2;
@@ -113,20 +101,6 @@ int main() {
     }
     cout << "Imprimiendo cola en lista enlazada: " << endl;
     cola.print();
-    /*
-    int a;
-    cola.pop(a);
-    cola.pop(a);
-    cola.pop(a);
-    cola.pop(a);
-    cola.pop(a);
-    cola.pop(a);
-    cola.pop(a);
-    //cola.pop(a);
-    //cola.pop(a);
-    //cola.pop(a);
-    cola.print();
-    */
     cola.push(111);
     cola.push(112);
     cola.push(113);
