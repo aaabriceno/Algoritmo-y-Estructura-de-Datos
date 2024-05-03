@@ -13,17 +13,19 @@ public:
     // Método para verificar si la pila está llena
     bool estaLlena() {
         return TOP == &elem[9];
+        //cout << "Pila llena" << endl;
     }
 
     // Método para verificar si la pila está vacía
     bool estaVacia() {
         return TOP == nullptr;
+        //cout << "Pila vacia" << endl;
     }
 
     // Método para insertar un elemento en la pila
     bool push(int a) {
         if (estaLlena()) {
-            cerr << "La pila está llena." << endl;
+            //cerr << "La pila está llena." << endl;
             return false;
         }
         if (estaVacia())
@@ -37,7 +39,7 @@ public:
     // Método para eliminar un elemento de la pila y devolver su valor
     bool pop(int &a) {
         if (estaVacia()) {
-            std::cerr << "La pila está vacía." << std::endl;
+            //std::cerr << "La pila está vacía." << std::endl;
             return false;
         }
         a = *TOP; // Obtener el valor del elemento en la cima de la pila
@@ -64,21 +66,27 @@ public:
 
 int main() {
     Pila miPila;
-
-    // Insertar elementos en la pila
-    miPila.push(10);
-    miPila.push(20);
-    miPila.push(30);
-
-    // Imprimir la pila con los elementos agregados
-    miPila.imprimirPila();
-
-    int valor;
-    // Eliminar elementos de la pila y mostrarlos
-    while (!miPila.estaVacia()) {
-        miPila.pop(valor);
-        cout << "Elemento retirado de la pila: " << valor << std::endl;
+    cout << "HACIENDO PUSH EN LA PILA\n";
+    for (int i = 1; i <= 12; i++) {
+        if (!miPila.push(i * 10)) {
+            miPila.imprimirPila();
+            cout << "No se pudo insertar el elemento en la pila. La pila está llena." << endl;
+            break;
+        }
     }
 
+    cout << "\n\nHACIENDO POP EN LA PILA\n";
+    miPila.imprimirPila();
+    int valor;
+    // Eliminar elementos de la pila y mostrarlos
+    for (int i = 1; i <= 12; i++) {
+        if (miPila.pop(valor)) {
+            cout << "Elemento retirado de la pila: " << valor << endl;
+        } else {
+            cout << "La pila está vacía." << endl;
+            break; // Rompe el bucle si la pila está vacía
+        }
+    }
+    miPila.imprimirPila();
     return 0;
 }

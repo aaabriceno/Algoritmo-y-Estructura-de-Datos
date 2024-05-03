@@ -41,16 +41,34 @@ bool busq_bin(int *ini, int *fin, int *&pos, int key) {
     return false;
 }
 
-int main() 
-{
+int main() {
     int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-    int key;
-    
-    cout << "Ingrese el elemento a buscar: ";
-    cin >> key;
+    //int key;
+
+    //cout << "Ingrese el elemento a buscar: ";
+    //cin >> key;
 
     int *pos;
-    busq_bin(arr, arr + sizeof(arr) / sizeof(arr[0]), pos, key);
+
+    // Buscar el primer elemento
+    cout << "Buscando el primer elemento:" << endl;
+    busq_bin(arr, arr + sizeof(arr) / sizeof(arr[0]), pos, arr[0]);
+    cout << endl;
+
+    // Buscar un elemento del medio
+    cout << "Buscando un elemento del medio:" << endl;
+    busq_bin(arr, arr + sizeof(arr) / sizeof(arr[0]), pos, arr[5]);
+    cout << endl;
+
+    // Buscar el último elemento
+    cout << "Buscando el último elemento:" << endl;
+    busq_bin(arr, arr + sizeof(arr) / sizeof(arr[0]), pos, arr[9]);
+    cout << endl;
+
+    // Buscar un elemento que no está en el array
+    cout << "Buscando un elemento que no está en el array:" << endl;
+    busq_bin(arr, arr + sizeof(arr) / sizeof(arr[0]), pos, 15);
+    cout << endl;
 
     return 0;
 }
