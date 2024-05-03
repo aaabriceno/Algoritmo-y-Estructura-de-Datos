@@ -10,4 +10,8 @@ using namespace std;
 template <class Conteiner = Cvector>
 class stack_adaptor{
     Conteiner conteiner;
+    bool push(int x);
+    bool  pop(int &x);
+    void print();
+
 };
