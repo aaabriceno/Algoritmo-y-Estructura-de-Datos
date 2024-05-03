@@ -7,8 +7,7 @@ using namespace std;
 
 bool busq_bin(int *ini, int *fin, int *&pos, int key) {
     /*
-    if (ini >= fin) 
-    {
+    if (ini >= fin){
         cout << "False" << endl; // Imprime "false" si el rango es vacío
         return false;
     }
