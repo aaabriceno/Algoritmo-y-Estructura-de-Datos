@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anthony\\AED_laptop\\Semana_8\\arbol_binario_busqueda_repetici\u00F3n_double_pointer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{82AB6E14-FE96-4E59-BA77-CAC45CF87722}|arbol_binario_busqueda_repetici\u00F3n_double_pointer.vcxproj|C:\\Users\\anthony\\AED_laptop\\Semana_8\\arbol_binario_busqueda_repetici\u00F3n_double_pointer\\arbol_binario_busqueda_repetici\u00F3n_double_pointer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{82AB6E14-FE96-4E59-BA77-CAC45CF87722}|arbol_binario_busqueda_repetici\u00F3n_double_pointer.vcxproj|solutionrelative:arbol_binario_busqueda_repetici\u00F3n_double_pointer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "arbol_binario_busqueda_repetici\u00F3n_double_pointer.cpp",
+              "DocumentMoniker": "C:\\Users\\anthony\\AED_laptop\\Semana_8\\arbol_binario_busqueda_repetici\u00F3n_double_pointer\\arbol_binario_busqueda_repetici\u00F3n_double_pointer.cpp",
+              "RelativeDocumentMoniker": "arbol_binario_busqueda_repetici\u00F3n_double_pointer.cpp",
+              "ToolTip": "C:\\Users\\anthony\\AED_laptop\\Semana_8\\arbol_binario_busqueda_repetici\u00F3n_double_pointer\\arbol_binario_busqueda_repetici\u00F3n_double_pointer.cpp",
+              "RelativeToolTip": "arbol_binario_busqueda_repetici\u00F3n_double_pointer.cpp",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-04T16:56:58.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
