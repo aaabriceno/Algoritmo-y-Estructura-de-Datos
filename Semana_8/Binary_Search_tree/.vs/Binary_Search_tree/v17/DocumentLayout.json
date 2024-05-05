@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\AED_PC\\Semana_8\\Binary_Search_tree\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5879C7A3-7FF3-4FC1-85D8-7FCF766D0647}|Binary_Search_tree.vcxproj|C:\\Users\\PC\\AED_PC\\Semana_8\\Binary_Search_tree\\Binary_Search_tree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5879C7A3-7FF3-4FC1-85D8-7FCF766D0647}|Binary_Search_tree.vcxproj|solutionrelative:Binary_Search_tree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\AED_PC\\Semana_8\\Binary_Search_tree\\Binary_Search_tree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Binary_Search_tree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\AED_PC\\Semana_8\\Binary_Search_tree\\Binary_S.5879c7a3\\x64\\Debug\\Binary_Search_tree.obj||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Binary_S.5879c7a3\\x64\\Debug\\Binary_Search_tree.obj||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\AED_PC\\Semana_8\\Binary_Search_tree\\Binary_S.5879c7a3\\x64\\Debug\\Binary_Search_tree.log||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Binary_S.5879c7a3\\x64\\Debug\\Binary_Search_tree.log||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\AED_PC\\Semana_8\\Binary_Search_tree\\Binary_S.5879c7a3\\x64\\Debug\\Binary_Search_tree.ilk||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Binary_S.5879c7a3\\x64\\Debug\\Binary_Search_tree.ilk||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\AED_PC\\Semana_8\\Binary_Search_tree\\Binary_S.5879c7a3\\x64\\Debug\\Binary_Search_tree.exe.recipe||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Binary_S.5879c7a3\\x64\\Debug\\Binary_Search_tree.exe.recipe||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +30,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Binary_Search_tree.obj",
+              "DocumentMoniker": "C:\\Users\\PC\\AED_PC\\Semana_8\\Binary_Search_tree\\Binary_S.5879c7a3\\x64\\Debug\\Binary_Search_tree.obj",
+              "RelativeDocumentMoniker": "Binary_S.5879c7a3\\x64\\Debug\\Binary_Search_tree.obj",
+              "ToolTip": "C:\\Users\\PC\\AED_PC\\Semana_8\\Binary_Search_tree\\Binary_S.5879c7a3\\x64\\Debug\\Binary_Search_tree.obj",
+              "RelativeToolTip": "Binary_S.5879c7a3\\x64\\Debug\\Binary_Search_tree.obj",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAENSURBVDhPjZPNDYMwDIVDxAlxYJR2hCKOSKzQEZiCaxmGIxIjtJu0B35upH4mrgCRlE8ydtLk2XFStafv\u002B8s4jm8YYjt9jDHGRguyuaoqAzslIqw3p2nKdkYkwAcLtNZdXddJ27b8g5BlmSrL8jPP8y2O45eIIYbXvs17ZC1MhAKU6Npss9vRAq1lL1WFPHIAUU9VCYl0GipQQzYBcdM0bAC\u002BKAqO94S2MRDpaJxgUsqjsz4xBsMw2GjbWDt1/IAo5uuEh63eh5mm6Y41Gh\u002BASqAIkyvaQ1nZo5H0CB9IxO/ABTLleW5HW\u002BQYvwpcSDNdTfQKRFEU0JGuFH7\u002BNtGHNHjVxPN/MuHolpRS6gsdswxexzQFmAAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-05-04T22:32:36.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Binary_Search_tree.log",
+              "DocumentMoniker": "C:\\Users\\PC\\AED_PC\\Semana_8\\Binary_Search_tree\\Binary_S.5879c7a3\\x64\\Debug\\Binary_Search_tree.log",
+              "RelativeDocumentMoniker": "Binary_S.5879c7a3\\x64\\Debug\\Binary_Search_tree.log",
+              "ToolTip": "C:\\Users\\PC\\AED_PC\\Semana_8\\Binary_Search_tree\\Binary_S.5879c7a3\\x64\\Debug\\Binary_Search_tree.log",
+              "RelativeToolTip": "Binary_S.5879c7a3\\x64\\Debug\\Binary_Search_tree.log",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-04T22:32:31.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Binary_Search_tree.ilk",
+              "DocumentMoniker": "C:\\Users\\PC\\AED_PC\\Semana_8\\Binary_Search_tree\\Binary_S.5879c7a3\\x64\\Debug\\Binary_Search_tree.ilk",
+              "RelativeDocumentMoniker": "Binary_S.5879c7a3\\x64\\Debug\\Binary_Search_tree.ilk",
+              "ToolTip": "C:\\Users\\PC\\AED_PC\\Semana_8\\Binary_Search_tree\\Binary_S.5879c7a3\\x64\\Debug\\Binary_Search_tree.ilk",
+              "RelativeToolTip": "Binary_S.5879c7a3\\x64\\Debug\\Binary_Search_tree.ilk",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEHSURBVDhP3ZM9boNAEIXHCbYlKs7ADdJRU8Md7Asg01PSG1FzhfwUHAI6F9SIG\u002BAU0K7nrcfE4IjYSudPetqZYfdpJd7Sv1BKLaSkvu\u002BVlHMcTNN8k1ozMvA8T7rfiaKIHMdJ2CSU0Q8wcF1XHdvvG2EO\u002Bb6vqqpSvHcjx\u002BhF1rvouo6SJEG51wPmIQNQ1zUWSzfMXQYf75\u002BDpjx8gynPYIB/ymrR5HlOq/VSa7kyyDBe9aY5cIN9EAQWUnhRURTEoaFduPvbpGkanTIkEcqybKgxL8tySOJF\u002BCbHacFNixsgIMh6HMfyici2bUrTVLox/B70O4IBco1oDum64sja8uavczuF6ATXgJBE8FSOiQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-05-04T22:32:30.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Binary_Search_tree.exe.recipe",
+              "DocumentMoniker": "C:\\Users\\PC\\AED_PC\\Semana_8\\Binary_Search_tree\\Binary_S.5879c7a3\\x64\\Debug\\Binary_Search_tree.exe.recipe",
+              "RelativeDocumentMoniker": "Binary_S.5879c7a3\\x64\\Debug\\Binary_Search_tree.exe.recipe",
+              "ToolTip": "C:\\Users\\PC\\AED_PC\\Semana_8\\Binary_Search_tree\\Binary_S.5879c7a3\\x64\\Debug\\Binary_Search_tree.exe.recipe",
+              "RelativeToolTip": "Binary_S.5879c7a3\\x64\\Debug\\Binary_Search_tree.exe.recipe",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-04T22:32:20.912Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +92,7 @@
               "RelativeDocumentMoniker": "Binary_Search_tree.cpp",
               "ToolTip": "C:\\Users\\PC\\AED_PC\\Semana_8\\Binary_Search_tree\\Binary_Search_tree.cpp",
               "RelativeToolTip": "Binary_Search_tree.cpp",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAUwAsAAAAFAAAA",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAUwHIAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-04T05:18:35.266Z",
               "EditorCaption": ""
