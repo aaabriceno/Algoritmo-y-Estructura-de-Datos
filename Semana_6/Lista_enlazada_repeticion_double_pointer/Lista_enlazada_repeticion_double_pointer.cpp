@@ -62,27 +62,28 @@ void Clist::print() {
 	cout << "\n";
 }		
 
-int main()
-{
+int main() {
 	Clist l;
-	l.insertar(2);
+	l.insertar(12);
+	l.insertar(1);
+	l.insertar(3);
+	l.insertar(15);
+	l.insertar(3);
 	l.insertar(3);
 	l.insertar(6);
 	l.insertar(7);
-	l.insertar(5);
+	l.insertar(9);
 	l.insertar(1);
-	l.insertar(8);
-	l.insertar(2);
-	l.insertar(3);
-	l.insertar(3);
-	l.insertar(3);
-	l.insertar(3);
-	l.insertar(3);
-
+	l.insertar(4);
+	l.insertar(12);
+	l.insertar(12);
+	l.insertar(12);
+	l.insertar(6);
 	l.print();
-	l.remover(3);
-	l.remover(3);
-	l.remover(2);
 	l.remover(1);
+	l.remover(3);
+	l.remover(6);
+	l.remover(12);
 	l.print();
+	return 0;
 }
