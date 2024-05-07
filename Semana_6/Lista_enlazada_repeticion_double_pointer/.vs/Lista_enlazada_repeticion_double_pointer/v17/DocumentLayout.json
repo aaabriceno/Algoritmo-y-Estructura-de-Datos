@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\AED_PC\\Semana_6\\Lista_enlazada_repeticion_double_pointer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3939EB3-B7AB-4903-8CB5-4AE945320D91}|Lista_enlazada_repeticion_double_pointer.vcxproj|C:\\Users\\PC\\AED_PC\\Semana_6\\Lista_enlazada_repeticion_double_pointer\\Lista_enlazada_repeticion_double_pointer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B3939EB3-B7AB-4903-8CB5-4AE945320D91}|Lista_enlazada_repeticion_double_pointer.vcxproj|solutionrelative:Lista_enlazada_repeticion_double_pointer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\AED_PC\\Semana_6\\Lista_enlazada_repeticion_double_pointer\\Lista_enlazada_repeticion_double_pointer.vcxproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lista_enlazada_repeticion_double_pointer.vcxproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\AED_PC\\Semana_6\\Lista_enlazada_repeticion_double_pointer\\Lista_enlazada_repeticion_double_pointer.vcxproj.filters||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lista_enlazada_repeticion_double_pointer.vcxproj.filters||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\AED_PC\\Semana_6\\Lista_enlazada_repeticion_double_pointer\\Lista_enlazada_repeticion_double_pointer.vcxproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lista_enlazada_repeticion_double_pointer.vcxproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\AED_PC\\Semana_6\\Lista_enlazada_repeticion_double_pointer\\Lista_enlazada_repeticion_double_pointer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lista_enlazada_repeticion_double_pointer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,12 +35,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Lista_enlazada_repeticion_double_pointer.vcxproj",
+              "DocumentMoniker": "C:\\Users\\PC\\AED_PC\\Semana_6\\Lista_enlazada_repeticion_double_pointer\\Lista_enlazada_repeticion_double_pointer.vcxproj",
+              "RelativeDocumentMoniker": "Lista_enlazada_repeticion_double_pointer.vcxproj",
+              "ToolTip": "C:\\Users\\PC\\AED_PC\\Semana_6\\Lista_enlazada_repeticion_double_pointer\\Lista_enlazada_repeticion_double_pointer.vcxproj",
+              "RelativeToolTip": "Lista_enlazada_repeticion_double_pointer.vcxproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000698|",
+              "WhenOpened": "2024-05-07T15:28:04.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lista_enlazada_repeticion_double_pointer.vcxproj.filters",
+              "DocumentMoniker": "C:\\Users\\PC\\AED_PC\\Semana_6\\Lista_enlazada_repeticion_double_pointer\\Lista_enlazada_repeticion_double_pointer.vcxproj.filters",
+              "RelativeDocumentMoniker": "Lista_enlazada_repeticion_double_pointer.vcxproj.filters",
+              "ToolTip": "C:\\Users\\PC\\AED_PC\\Semana_6\\Lista_enlazada_repeticion_double_pointer\\Lista_enlazada_repeticion_double_pointer.vcxproj.filters",
+              "RelativeToolTip": "Lista_enlazada_repeticion_double_pointer.vcxproj.filters",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-07T15:28:04.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lista_enlazada_repeticion_double_pointer.vcxproj.user",
+              "DocumentMoniker": "C:\\Users\\PC\\AED_PC\\Semana_6\\Lista_enlazada_repeticion_double_pointer\\Lista_enlazada_repeticion_double_pointer.vcxproj.user",
+              "RelativeDocumentMoniker": "Lista_enlazada_repeticion_double_pointer.vcxproj.user",
+              "ToolTip": "C:\\Users\\PC\\AED_PC\\Semana_6\\Lista_enlazada_repeticion_double_pointer\\Lista_enlazada_repeticion_double_pointer.vcxproj.user",
+              "RelativeToolTip": "Lista_enlazada_repeticion_double_pointer.vcxproj.user",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2024-05-07T15:28:03.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Lista_enlazada_repeticion_double_pointer.cpp",
               "DocumentMoniker": "C:\\Users\\PC\\AED_PC\\Semana_6\\Lista_enlazada_repeticion_double_pointer\\Lista_enlazada_repeticion_double_pointer.cpp",
               "RelativeDocumentMoniker": "Lista_enlazada_repeticion_double_pointer.cpp",
               "ToolTip": "C:\\Users\\PC\\AED_PC\\Semana_6\\Lista_enlazada_repeticion_double_pointer\\Lista_enlazada_repeticion_double_pointer.cpp",
               "RelativeToolTip": "Lista_enlazada_repeticion_double_pointer.cpp",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAcwCgAAAATAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAcwBUAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-07T01:59:36.053Z",
               "EditorCaption": ""

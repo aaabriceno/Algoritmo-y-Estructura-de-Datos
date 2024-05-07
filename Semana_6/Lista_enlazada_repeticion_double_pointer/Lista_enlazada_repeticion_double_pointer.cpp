@@ -23,16 +23,10 @@ bool Clist::buscar(int x, nodo_lista**& p) {
 }
 bool Clist::insertar(int x) {
 	nodo_lista** p; //si lo encuentra el dato
-	if (buscar(x,p)) {
-		nodo_lista* t = *p;
-		*p = new nodo_lista(x);
-		(*p)->next = t;
-	}
-	else {
-		nodo_lista* t = *p;
-		*p = new nodo_lista(x);
-		(*p)->next = t;
-	}
+	buscar(x, p);
+	nodo_lista* t = *p;
+	*p = new nodo_lista(x);
+	(*p)->next = t;
 	return 1;
 }
 /*
@@ -88,5 +82,7 @@ int main()
 	l.print();
 	l.remover(3);
 	l.remover(3);
+	l.remover(2);
+	l.remover(1);
 	l.print();
 }
