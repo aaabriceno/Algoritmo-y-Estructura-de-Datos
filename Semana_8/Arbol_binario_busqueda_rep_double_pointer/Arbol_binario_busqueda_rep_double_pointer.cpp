@@ -3,13 +3,8 @@ using namespace std;
 
 struct CbintreeNode {
 	int dato;
-	int contador;
 	CbintreeNode* nodes[2];
-	CbintreeNode(int d) {
-		dato = d;
-		contador = 1;
-		nodes[0] = nodes[1] = 0;
-	}
+	CbintreeNode(int d) {dato = d;nodes[0] = nodes[1] = 0;}
 };
 
 class Cbintree {
@@ -40,7 +35,7 @@ bool Cbintree::buscar(int x, CbintreeNode**& p) {
 }
 bool Cbintree::buscar_remove(int x, CbintreeNode**& p) {
 	p = &root;
-	while ((*p != 0) && (((*p)->dato != x)	) {
+	while ((*p != 0) && (*p)->dato != x) {
 		p = &((*p)->nodes[x > (*p)->dato]);
 	}
 	return (*p != 0);
@@ -57,7 +52,6 @@ bool Cbintree::insertar(int x) {
 		else {
 			*p = new CbintreeNode(x);
 		}
-		(*p)->contador++;
 	}
 	else {
 		*p = new CbintreeNode(x);
@@ -74,7 +68,6 @@ CbintreeNode** Cbintree::reemplazar(CbintreeNode** p){
 	bb = !bb;
 	return q;
 }
-
 bool Cbintree::remover(int x) {
 	CbintreeNode** p;
 	if (!buscar_remove(x,p) )return 0;
@@ -86,10 +79,8 @@ bool Cbintree::remover(int x) {
 	}
 	//caso 1.1 - 1.2 si es que tiene un hijo izquierda o derecha
 		CbintreeNode* t = *p;
-
 		*p = (*p)->nodes[(*p)->nodes[0] == 0];
 		delete t;
-		(*p)->contador--;
 		return 1;
 }
 
@@ -103,8 +94,6 @@ void Cbintree::print() {
 	inOrder(root);
 	cout << "\n";
 }
-
-
 int main() {
 	Cbintree l;
 	l.insertar(12);
@@ -126,6 +115,8 @@ int main() {
 	l.remover(5);
 	l.remover(3);
 	l.remover(45);
+	l.remover(12);
+	l.remover(12);
 	l.print();
 
 	return 0;

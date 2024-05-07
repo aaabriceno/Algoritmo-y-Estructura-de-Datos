@@ -1,20 +1,20 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\anthony\\AED_laptop\\Semana_8\\Arbol_binario_busqueda_rep_double_pointer\\",
+  "WorkspaceRootPath": "C:\\Users\\PC\\AED_PC\\Semana_8\\Arbol_binario_busqueda_rep_double_pointer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\anthony\\AED_laptop\\Semana_8\\Arbol_binario_busqueda_rep_double_pointer\\Arbol_binario_busqueda_rep_double_pointer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\AED_PC\\Semana_8\\Arbol_binario_busqueda_rep_double_pointer\\Arbol_binario_busqueda_rep_double_pointer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Arbol_binario_busqueda_rep_double_pointer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\anthony\\AED_laptop\\Semana_8\\Arbol_binario_busqueda_rep_double_pointer\\x64\\Debug\\Arbol_binario_busqueda_rep_double_pointer.pdb||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\AED_PC\\Semana_8\\Arbol_binario_busqueda_rep_double_pointer\\x64\\Debug\\Arbol_binario_busqueda_rep_double_pointer.pdb||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:x64\\Debug\\Arbol_binario_busqueda_rep_double_pointer.pdb||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 211,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
@@ -28,9 +28,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Arbol_binario_busqueda_rep_double_pointer.pdb",
-              "DocumentMoniker": "C:\\Users\\anthony\\AED_laptop\\Semana_8\\Arbol_binario_busqueda_rep_double_pointer\\x64\\Debug\\Arbol_binario_busqueda_rep_double_pointer.pdb",
+              "DocumentMoniker": "C:\\Users\\PC\\AED_PC\\Semana_8\\Arbol_binario_busqueda_rep_double_pointer\\x64\\Debug\\Arbol_binario_busqueda_rep_double_pointer.pdb",
               "RelativeDocumentMoniker": "x64\\Debug\\Arbol_binario_busqueda_rep_double_pointer.pdb",
-              "ToolTip": "C:\\Users\\anthony\\AED_laptop\\Semana_8\\Arbol_binario_busqueda_rep_double_pointer\\x64\\Debug\\Arbol_binario_busqueda_rep_double_pointer.pdb",
+              "ToolTip": "C:\\Users\\PC\\AED_PC\\Semana_8\\Arbol_binario_busqueda_rep_double_pointer\\x64\\Debug\\Arbol_binario_busqueda_rep_double_pointer.pdb",
               "RelativeToolTip": "x64\\Debug\\Arbol_binario_busqueda_rep_double_pointer.pdb",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002276|",
               "WhenOpened": "2024-05-06T19:37:28.186Z"
@@ -39,9 +39,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Arbol_binario_busqueda_rep_double_pointer.cpp",
-              "DocumentMoniker": "C:\\Users\\anthony\\AED_laptop\\Semana_8\\Arbol_binario_busqueda_rep_double_pointer\\Arbol_binario_busqueda_rep_double_pointer.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\AED_PC\\Semana_8\\Arbol_binario_busqueda_rep_double_pointer\\Arbol_binario_busqueda_rep_double_pointer.cpp",
               "RelativeDocumentMoniker": "Arbol_binario_busqueda_rep_double_pointer.cpp",
-              "ToolTip": "C:\\Users\\anthony\\AED_laptop\\Semana_8\\Arbol_binario_busqueda_rep_double_pointer\\Arbol_binario_busqueda_rep_double_pointer.cpp",
+              "ToolTip": "C:\\Users\\PC\\AED_PC\\Semana_8\\Arbol_binario_busqueda_rep_double_pointer\\Arbol_binario_busqueda_rep_double_pointer.cpp",
               "RelativeToolTip": "Arbol_binario_busqueda_rep_double_pointer.cpp",
               "ViewState": "AQIAAHAAAAAAAAAAAAAQwHoAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
