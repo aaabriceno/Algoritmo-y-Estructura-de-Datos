@@ -49,9 +49,6 @@ bool Cbintree::insertar(int x) {
 			*p = new CbintreeNode(x);
 			(*p)->nodes[0] = t;
 		}
-		else {
-			*p = new CbintreeNode(x);
-		}
 	}
 	else {
 		*p = new CbintreeNode(x);
