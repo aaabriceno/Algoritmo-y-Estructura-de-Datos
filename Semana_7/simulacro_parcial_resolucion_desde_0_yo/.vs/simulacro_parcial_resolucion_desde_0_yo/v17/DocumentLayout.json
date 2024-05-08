@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\AED_PC\\Semana_7\\simulacro_parcial_resolucion_desde_0_yo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1465C02B-8379-4E83-8201-2A279F682508}|simulacro_parcial_resolucion_desde_0_yo.vcxproj|C:\\Users\\PC\\AED_PC\\Semana_7\\simulacro_parcial_resolucion_desde_0_yo\\simulacro_parcial_resolucion_desde_0_yo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1465C02B-8379-4E83-8201-2A279F682508}|simulacro_parcial_resolucion_desde_0_yo.vcxproj|solutionrelative:simulacro_parcial_resolucion_desde_0_yo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "simulacro_parcial_resolucion_desde_0_yo.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\AED_PC\\Semana_7\\simulacro_parcial_resolucion_desde_0_yo\\simulacro_parcial_resolucion_desde_0_yo.cpp",
+              "RelativeDocumentMoniker": "simulacro_parcial_resolucion_desde_0_yo.cpp",
+              "ToolTip": "C:\\Users\\PC\\AED_PC\\Semana_7\\simulacro_parcial_resolucion_desde_0_yo\\simulacro_parcial_resolucion_desde_0_yo.cpp",
+              "RelativeToolTip": "simulacro_parcial_resolucion_desde_0_yo.cpp",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-08T04:03:11.991Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

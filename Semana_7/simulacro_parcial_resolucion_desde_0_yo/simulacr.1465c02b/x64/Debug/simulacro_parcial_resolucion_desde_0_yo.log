@@ -1,0 +1,32 @@
+﻿  simulacro_parcial_resolucion_desde_0_yo.cpp
+C:\Users\PC\AED_PC\Semana_7\simulacro_parcial_resolucion_desde_0_yo\simulacro_parcial_resolucion_desde_0_yo.cpp(79,35): warning C4305: 'inicializando': truncamiento de 'double' a '_Ty'
+C:\Users\PC\AED_PC\Semana_7\simulacro_parcial_resolucion_desde_0_yo\simulacro_parcial_resolucion_desde_0_yo.cpp(79,35): warning C4305:         with
+C:\Users\PC\AED_PC\Semana_7\simulacro_parcial_resolucion_desde_0_yo\simulacro_parcial_resolucion_desde_0_yo.cpp(79,35): warning C4305:         [
+C:\Users\PC\AED_PC\Semana_7\simulacro_parcial_resolucion_desde_0_yo\simulacro_parcial_resolucion_desde_0_yo.cpp(79,35): warning C4305:             _Ty=float
+C:\Users\PC\AED_PC\Semana_7\simulacro_parcial_resolucion_desde_0_yo\simulacro_parcial_resolucion_desde_0_yo.cpp(79,35): warning C4305:         ]
+C:\Users\PC\AED_PC\Semana_7\simulacro_parcial_resolucion_desde_0_yo\simulacro_parcial_resolucion_desde_0_yo.cpp(79,40): warning C4305: 'inicializando': truncamiento de 'double' a '_Ty'
+C:\Users\PC\AED_PC\Semana_7\simulacro_parcial_resolucion_desde_0_yo\simulacro_parcial_resolucion_desde_0_yo.cpp(79,40): warning C4305:         with
+C:\Users\PC\AED_PC\Semana_7\simulacro_parcial_resolucion_desde_0_yo\simulacro_parcial_resolucion_desde_0_yo.cpp(79,40): warning C4305:         [
+C:\Users\PC\AED_PC\Semana_7\simulacro_parcial_resolucion_desde_0_yo\simulacro_parcial_resolucion_desde_0_yo.cpp(79,40): warning C4305:             _Ty=float
+C:\Users\PC\AED_PC\Semana_7\simulacro_parcial_resolucion_desde_0_yo\simulacro_parcial_resolucion_desde_0_yo.cpp(79,40): warning C4305:         ]
+C:\Users\PC\AED_PC\Semana_7\simulacro_parcial_resolucion_desde_0_yo\simulacro_parcial_resolucion_desde_0_yo.cpp(79,47): warning C4305: 'inicializando': truncamiento de 'double' a '_Ty'
+C:\Users\PC\AED_PC\Semana_7\simulacro_parcial_resolucion_desde_0_yo\simulacro_parcial_resolucion_desde_0_yo.cpp(79,47): warning C4305:         with
+C:\Users\PC\AED_PC\Semana_7\simulacro_parcial_resolucion_desde_0_yo\simulacro_parcial_resolucion_desde_0_yo.cpp(79,47): warning C4305:         [
+C:\Users\PC\AED_PC\Semana_7\simulacro_parcial_resolucion_desde_0_yo\simulacro_parcial_resolucion_desde_0_yo.cpp(79,47): warning C4305:             _Ty=float
+C:\Users\PC\AED_PC\Semana_7\simulacro_parcial_resolucion_desde_0_yo\simulacro_parcial_resolucion_desde_0_yo.cpp(79,47): warning C4305:         ]
+C:\Users\PC\AED_PC\Semana_7\simulacro_parcial_resolucion_desde_0_yo\simulacro_parcial_resolucion_desde_0_yo.cpp(79,69): warning C4305: 'inicializando': truncamiento de 'double' a '_Ty'
+C:\Users\PC\AED_PC\Semana_7\simulacro_parcial_resolucion_desde_0_yo\simulacro_parcial_resolucion_desde_0_yo.cpp(79,69): warning C4305:         with
+C:\Users\PC\AED_PC\Semana_7\simulacro_parcial_resolucion_desde_0_yo\simulacro_parcial_resolucion_desde_0_yo.cpp(79,69): warning C4305:         [
+C:\Users\PC\AED_PC\Semana_7\simulacro_parcial_resolucion_desde_0_yo\simulacro_parcial_resolucion_desde_0_yo.cpp(79,69): warning C4305:             _Ty=float
+C:\Users\PC\AED_PC\Semana_7\simulacro_parcial_resolucion_desde_0_yo\simulacro_parcial_resolucion_desde_0_yo.cpp(79,69): warning C4305:         ]
+C:\Users\PC\AED_PC\Semana_7\simulacro_parcial_resolucion_desde_0_yo\simulacro_parcial_resolucion_desde_0_yo.cpp(79,74): warning C4305: 'inicializando': truncamiento de 'double' a '_Ty'
+C:\Users\PC\AED_PC\Semana_7\simulacro_parcial_resolucion_desde_0_yo\simulacro_parcial_resolucion_desde_0_yo.cpp(79,74): warning C4305:         with
+C:\Users\PC\AED_PC\Semana_7\simulacro_parcial_resolucion_desde_0_yo\simulacro_parcial_resolucion_desde_0_yo.cpp(79,74): warning C4305:         [
+C:\Users\PC\AED_PC\Semana_7\simulacro_parcial_resolucion_desde_0_yo\simulacro_parcial_resolucion_desde_0_yo.cpp(79,74): warning C4305:             _Ty=float
+C:\Users\PC\AED_PC\Semana_7\simulacro_parcial_resolucion_desde_0_yo\simulacro_parcial_resolucion_desde_0_yo.cpp(79,74): warning C4305:         ]
+C:\Users\PC\AED_PC\Semana_7\simulacro_parcial_resolucion_desde_0_yo\simulacro_parcial_resolucion_desde_0_yo.cpp(79,79): warning C4305: 'inicializando': truncamiento de 'double' a '_Ty'
+C:\Users\PC\AED_PC\Semana_7\simulacro_parcial_resolucion_desde_0_yo\simulacro_parcial_resolucion_desde_0_yo.cpp(79,79): warning C4305:         with
+C:\Users\PC\AED_PC\Semana_7\simulacro_parcial_resolucion_desde_0_yo\simulacro_parcial_resolucion_desde_0_yo.cpp(79,79): warning C4305:         [
+C:\Users\PC\AED_PC\Semana_7\simulacro_parcial_resolucion_desde_0_yo\simulacro_parcial_resolucion_desde_0_yo.cpp(79,79): warning C4305:             _Ty=float
+C:\Users\PC\AED_PC\Semana_7\simulacro_parcial_resolucion_desde_0_yo\simulacro_parcial_resolucion_desde_0_yo.cpp(79,79): warning C4305:         ]
+  simulacro_parcial_resolucion_desde_0_yo.vcxproj -> C:\Users\PC\AED_PC\Semana_7\simulacro_parcial_resolucion_desde_0_yo\x64\Debug\simulacro_parcial_resolucion_desde_0_yo.exe
