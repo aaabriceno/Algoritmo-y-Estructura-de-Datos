@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anthony\\AED_laptop\\Examen_Parcial\\Pregunta2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E40AD8C-5A9C-4F06-986F-9717B13C6127}|Pregunta2.vcxproj|C:\\Users\\anthony\\AED_laptop\\Examen_Parcial\\Pregunta2\\Pregunta2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4E40AD8C-5A9C-4F06-986F-9717B13C6127}|Pregunta2.vcxproj|solutionrelative:Pregunta2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pregunta2.cpp",
+              "DocumentMoniker": "C:\\Users\\anthony\\AED_laptop\\Examen_Parcial\\Pregunta2\\Pregunta2.cpp",
+              "RelativeDocumentMoniker": "Pregunta2.cpp",
+              "ToolTip": "C:\\Users\\anthony\\AED_laptop\\Examen_Parcial\\Pregunta2\\Pregunta2.cpp",
+              "RelativeToolTip": "Pregunta2.cpp",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAGEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-10T23:28:06.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

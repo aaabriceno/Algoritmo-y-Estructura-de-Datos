@@ -1,0 +1,62 @@
+﻿  Pregunta3.cpp
+C:\Users\anthony\AED_laptop\Examen_Parcial\Pregunta3\Pregunta3.cpp(27,28): error C2039: "size": no es un miembro de "XVector"
+  C:\Users\anthony\AED_laptop\Examen_Parcial\Pregunta3\Pregunta3.cpp(3,7):
+  vea la declaración de 'XVector'
+  
+C:\Users\anthony\AED_laptop\Examen_Parcial\Pregunta3\Pregunta3.cpp(28,28): error C2676: '[' binario: 'XVector' no define este operador o una conversión a un tipo aceptable para el operador predefinido
+C:\Users\anthony\AED_laptop\Examen_Parcial\Pregunta3\Pregunta3.cpp(36,7): error C2039: "push_back": no es un miembro de "XVector"
+  C:\Users\anthony\AED_laptop\Examen_Parcial\Pregunta3\Pregunta3.cpp(3,7):
+  vea la declaración de 'XVector'
+  
+C:\Users\anthony\AED_laptop\Examen_Parcial\Pregunta3\Pregunta3.cpp(36,23): error C2039: "push_back": no es un miembro de "XVector"
+  C:\Users\anthony\AED_laptop\Examen_Parcial\Pregunta3\Pregunta3.cpp(3,7):
+  vea la declaración de 'XVector'
+  
+C:\Users\anthony\AED_laptop\Examen_Parcial\Pregunta3\Pregunta3.cpp(36,39): error C2039: "push_back": no es un miembro de "XVector"
+  C:\Users\anthony\AED_laptop\Examen_Parcial\Pregunta3\Pregunta3.cpp(3,7):
+  vea la declaración de 'XVector'
+  
+C:\Users\anthony\AED_laptop\Examen_Parcial\Pregunta3\Pregunta3.cpp(37,7): error C2039: "push_back": no es un miembro de "XVector"
+  C:\Users\anthony\AED_laptop\Examen_Parcial\Pregunta3\Pregunta3.cpp(3,7):
+  vea la declaración de 'XVector'
+  
+C:\Users\anthony\AED_laptop\Examen_Parcial\Pregunta3\Pregunta3.cpp(37,23): error C2039: "push_back": no es un miembro de "XVector"
+  C:\Users\anthony\AED_laptop\Examen_Parcial\Pregunta3\Pregunta3.cpp(3,7):
+  vea la declaración de 'XVector'
+  
+C:\Users\anthony\AED_laptop\Examen_Parcial\Pregunta3\Pregunta3.cpp(37,39): error C2039: "push_back": no es un miembro de "XVector"
+  C:\Users\anthony\AED_laptop\Examen_Parcial\Pregunta3\Pregunta3.cpp(3,7):
+  vea la declaración de 'XVector'
+  
+C:\Users\anthony\AED_laptop\Examen_Parcial\Pregunta3\Pregunta3.cpp(38,7): error C2039: "push_back": no es un miembro de "XVector"
+  C:\Users\anthony\AED_laptop\Examen_Parcial\Pregunta3\Pregunta3.cpp(3,7):
+  vea la declaración de 'XVector'
+  
+C:\Users\anthony\AED_laptop\Examen_Parcial\Pregunta3\Pregunta3.cpp(40,7): error C2039: "push_front": no es un miembro de "XVector"
+  C:\Users\anthony\AED_laptop\Examen_Parcial\Pregunta3\Pregunta3.cpp(3,7):
+  vea la declaración de 'XVector'
+  
+C:\Users\anthony\AED_laptop\Examen_Parcial\Pregunta3\Pregunta3.cpp(40,24): error C2039: "push_front": no es un miembro de "XVector"
+  C:\Users\anthony\AED_laptop\Examen_Parcial\Pregunta3\Pregunta3.cpp(3,7):
+  vea la declaración de 'XVector'
+  
+C:\Users\anthony\AED_laptop\Examen_Parcial\Pregunta3\Pregunta3.cpp(42,7): error C2039: "push_front": no es un miembro de "XVector"
+  C:\Users\anthony\AED_laptop\Examen_Parcial\Pregunta3\Pregunta3.cpp(3,7):
+  vea la declaración de 'XVector'
+  
+C:\Users\anthony\AED_laptop\Examen_Parcial\Pregunta3\Pregunta3.cpp(42,25): error C2039: "push_front": no es un miembro de "XVector"
+  C:\Users\anthony\AED_laptop\Examen_Parcial\Pregunta3\Pregunta3.cpp(3,7):
+  vea la declaración de 'XVector'
+  
+C:\Users\anthony\AED_laptop\Examen_Parcial\Pregunta3\Pregunta3.cpp(43,7): error C2039: "push_back": no es un miembro de "XVector"
+  C:\Users\anthony\AED_laptop\Examen_Parcial\Pregunta3\Pregunta3.cpp(3,7):
+  vea la declaración de 'XVector'
+  
+C:\Users\anthony\AED_laptop\Examen_Parcial\Pregunta3\Pregunta3.cpp(45,7): error C2039: "push_front": no es un miembro de "XVector"
+  C:\Users\anthony\AED_laptop\Examen_Parcial\Pregunta3\Pregunta3.cpp(3,7):
+  vea la declaración de 'XVector'
+  
+C:\Users\anthony\AED_laptop\Examen_Parcial\Pregunta3\Pregunta3.cpp(45,25): error C2039: "push_back": no es un miembro de "XVector"
+  C:\Users\anthony\AED_laptop\Examen_Parcial\Pregunta3\Pregunta3.cpp(3,7):
+  vea la declaración de 'XVector'
+  
