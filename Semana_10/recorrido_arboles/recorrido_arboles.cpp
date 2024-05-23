@@ -41,6 +41,18 @@ void inorder(Node* n) { //metodo in orden tipico
 	cout << n->valor;
 	inorder(n->nodes[1]);
 }
+void preorder(Node* n) { // metodo preorder tipico
+	if (!n) return;
+	cout << n->valor;
+	preorder(n->nodes[0]);
+	preorder(n->nodes[1]);
+}
+void postorder(Node* n) { // metodo postorder tipico
+	if (!n) return;
+	postorder(n->nodes[0]);
+	postorder(n->nodes[1]);
+	cout << n->valor;
+}
 
 int  main() {
 

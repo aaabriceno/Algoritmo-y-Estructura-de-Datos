@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\anthony\\AED_laptop\\Examen_Parcial\\Pregunta1_resolucion\\",
+  "WorkspaceRootPath": "C:\\Users\\PC\\AED_PC\\Semana_9 Examen_Parcial\\Pregunta1_resolucion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70E98DC3-6D8F-47F0-87FB-6294F1363A3B}|Pregunta1_resolucion.vcxproj|C:\\Users\\anthony\\AED_laptop\\Examen_Parcial\\Pregunta1_resolucion\\Pregunta1_resolucion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{70E98DC3-6D8F-47F0-87FB-6294F1363A3B}|Pregunta1_resolucion.vcxproj|C:\\Users\\PC\\AED_PC\\Semana_9 Examen_Parcial\\Pregunta1_resolucion\\Pregunta1_resolucion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{70E98DC3-6D8F-47F0-87FB-6294F1363A3B}|Pregunta1_resolucion.vcxproj|solutionrelative:Pregunta1_resolucion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -14,24 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Pregunta1_resolucion.cpp",
-              "DocumentMoniker": "C:\\Users\\anthony\\AED_laptop\\Examen_Parcial\\Pregunta1_resolucion\\Pregunta1_resolucion.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\AED_PC\\Semana_9 Examen_Parcial\\Pregunta1_resolucion\\Pregunta1_resolucion.cpp",
               "RelativeDocumentMoniker": "Pregunta1_resolucion.cpp",
-              "ToolTip": "C:\\Users\\anthony\\AED_laptop\\Examen_Parcial\\Pregunta1_resolucion\\Pregunta1_resolucion.cpp",
+              "ToolTip": "C:\\Users\\PC\\AED_PC\\Semana_9 Examen_Parcial\\Pregunta1_resolucion\\Pregunta1_resolucion.cpp",
               "RelativeToolTip": "Pregunta1_resolucion.cpp",
-              "ViewState": "AQIAABcAAAAAAAAAAAA0wCUAAAAcAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-10T23:30:19.065Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
