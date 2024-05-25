@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\AED_PC\\Semana_9 Examen_Parcial\\Pregunta3_resolucion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA83839-9A17-4C7E-AE8A-896F91A5837E}|Pregunta3_resolucion.vcxproj|C:\\Users\\PC\\AED_PC\\Semana_9 Examen_Parcial\\Pregunta3_resolucion\\Pregunta3_resolucion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DCA83839-9A17-4C7E-AE8A-896F91A5837E}|Pregunta3_resolucion.vcxproj|solutionrelative:Pregunta3_resolucion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pregunta3_resolucion.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\AED_PC\\Semana_9 Examen_Parcial\\Pregunta3_resolucion\\Pregunta3_resolucion.cpp",
+              "RelativeDocumentMoniker": "Pregunta3_resolucion.cpp",
+              "ToolTip": "C:\\Users\\PC\\AED_PC\\Semana_9 Examen_Parcial\\Pregunta3_resolucion\\Pregunta3_resolucion.cpp",
+              "RelativeToolTip": "Pregunta3_resolucion.cpp",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAKEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-25T01:27:30.176Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
