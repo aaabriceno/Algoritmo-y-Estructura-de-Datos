@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anthony\\AED_laptop\\Semana_13\\threads__programing_in_c\u002B\u002B\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A0955103-D4A6-4F8E-94F0-89D5E0AE9F98}|treads__programing_in_c\u002B\u002B.vcxproj|C:\\Users\\anthony\\AED_laptop\\Semana_13\\threads__programing_in_c\u002B\u002B\\treads__programing_in_c\u002B\u002B.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A0955103-D4A6-4F8E-94F0-89D5E0AE9F98}|treads__programing_in_c\u002B\u002B.vcxproj|solutionrelative:treads__programing_in_c\u002B\u002B.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 209,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "treads__programing_in_c\u002B\u002B.cpp",
+              "DocumentMoniker": "C:\\Users\\anthony\\AED_laptop\\Semana_13\\threads__programing_in_c\u002B\u002B\\treads__programing_in_c\u002B\u002B.cpp",
+              "RelativeDocumentMoniker": "treads__programing_in_c\u002B\u002B.cpp",
+              "ToolTip": "C:\\Users\\anthony\\AED_laptop\\Semana_13\\threads__programing_in_c\u002B\u002B\\treads__programing_in_c\u002B\u002B.cpp",
+              "RelativeToolTip": "treads__programing_in_c\u002B\u002B.cpp",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-03T20:26:29.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
