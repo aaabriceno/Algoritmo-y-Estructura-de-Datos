@@ -1,0 +1,4 @@
+﻿  threads_sorting_method.cpp
+C:\Users\PC\AED_PC\Semana_13\threads_sorting_method\threads_sorting_method.cpp(51,35): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\PC\AED_PC\Semana_13\threads_sorting_method\threads_sorting_method.cpp(66,20): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+  threads_sorting_method.vcxproj -> C:\Users\PC\AED_PC\Semana_13\threads_sorting_method\x64\Debug\threads_sorting_method.exe
