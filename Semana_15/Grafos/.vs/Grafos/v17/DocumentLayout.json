@@ -10,7 +10,7 @@
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 105,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
@@ -24,14 +24,10 @@
               "RelativeDocumentMoniker": "Grafos.cpp",
               "ToolTip": "C:\\Users\\anthony\\AED_laptop\\Semana_15\\Grafos\\Grafos.cpp",
               "RelativeToolTip": "Grafos.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAAB4AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-06-19T19:28:23.967Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
