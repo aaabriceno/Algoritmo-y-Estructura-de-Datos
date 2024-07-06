@@ -26,8 +26,6 @@ char m[19][19] =
     { ' ',' ',' ',' ',' ',' ',' ',' ',' ',' ','#',' ',' ',' ',' ',' ',' ',' ',' '}
 };
 
-
-
 void printm()
 {
     for (int j = 0; j < 19; j++)
@@ -37,7 +35,6 @@ void printm()
         cout << "\n";
     }
 }
-
 
 void search()
 {
@@ -91,8 +88,6 @@ void search()
     int y = b_y;
     int x = b_x;
 
-
-
     while (y != a_y || x != a_x)
     {
         m[y][x] = '.';
@@ -111,7 +106,6 @@ void search()
     m[a_y][a_x] = 'a';
     m[b_y][b_x] = 'b';
 }
-
 
 int main()
 {
