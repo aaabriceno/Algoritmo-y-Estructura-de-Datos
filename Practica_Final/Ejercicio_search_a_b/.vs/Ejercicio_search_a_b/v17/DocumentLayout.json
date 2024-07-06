@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\AED_PC\\Practica_Final\\Ejercicio_search_a_b\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36B336A1-C40F-4A94-B505-7842948D9176}|Ejercicio_search_a_b.vcxproj|C:\\Users\\PC\\AED_PC\\Practica_Final\\Ejercicio_search_a_b\\Ejercicio_search_a_b.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{36B336A1-C40F-4A94-B505-7842948D9176}|Ejercicio_search_a_b.vcxproj|solutionrelative:Ejercicio_search_a_b.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ejercicio_search_a_b.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\AED_PC\\Practica_Final\\Ejercicio_search_a_b\\Ejercicio_search_a_b.cpp",
+              "RelativeDocumentMoniker": "Ejercicio_search_a_b.cpp",
+              "ToolTip": "C:\\Users\\PC\\AED_PC\\Practica_Final\\Ejercicio_search_a_b\\Ejercicio_search_a_b.cpp",
+              "RelativeToolTip": "Ejercicio_search_a_b.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-06T07:55:35.278Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
