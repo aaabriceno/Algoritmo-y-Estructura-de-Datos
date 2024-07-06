@@ -1,37 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\anthony\\AED_laptop\\Semana_10\\recorrido_arboles\\",
+  "WorkspaceRootPath": "C:\\Users\\PC\\AED_PC\\Semana_10\\recorrido_arboles\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D3F45686-7172-478B-986F-5087CB185392}|recorrido_arboles.vcxproj|C:\\Users\\anthony\\AED_laptop\\Semana_10\\recorrido_arboles\\recorrido_arboles.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{D3F45686-7172-478B-986F-5087CB185392}|recorrido_arboles.vcxproj|C:\\Users\\PC\\AED_PC\\Semana_10\\recorrido_arboles\\recorrido_arboles.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D3F45686-7172-478B-986F-5087CB185392}|recorrido_arboles.vcxproj|solutionrelative:recorrido_arboles.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 179,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "recorrido_arboles.cpp",
-              "DocumentMoniker": "C:\\Users\\anthony\\AED_laptop\\Semana_10\\recorrido_arboles\\recorrido_arboles.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\AED_PC\\Semana_10\\recorrido_arboles\\recorrido_arboles.cpp",
               "RelativeDocumentMoniker": "recorrido_arboles.cpp",
-              "ToolTip": "C:\\Users\\anthony\\AED_laptop\\Semana_10\\recorrido_arboles\\recorrido_arboles.cpp",
+              "ToolTip": "C:\\Users\\PC\\AED_PC\\Semana_10\\recorrido_arboles\\recorrido_arboles.cpp",
               "RelativeToolTip": "recorrido_arboles.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAASAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-13T21:05:06.08Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

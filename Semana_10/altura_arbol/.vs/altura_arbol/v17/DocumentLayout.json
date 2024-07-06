@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\anthony\\AED_laptop\\Semana_10\\altura_arbol\\",
+  "WorkspaceRootPath": "C:\\Users\\PC\\AED_PC\\Semana_10\\altura_arbol\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7FD798A0-CAE2-4F03-89B8-F21BB2A9FB58}|altura_arbol.vcxproj|C:\\Users\\anthony\\AED_laptop\\Semana_10\\altura_arbol\\altura_arbol.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{7FD798A0-CAE2-4F03-89B8-F21BB2A9FB58}|altura_arbol.vcxproj|C:\\Users\\PC\\AED_PC\\Semana_10\\altura_arbol\\altura_arbol.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7FD798A0-CAE2-4F03-89B8-F21BB2A9FB58}|altura_arbol.vcxproj|solutionrelative:altura_arbol.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -14,24 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "altura_arbol.cpp",
-              "DocumentMoniker": "C:\\Users\\anthony\\AED_laptop\\Semana_10\\altura_arbol\\altura_arbol.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\AED_PC\\Semana_10\\altura_arbol\\altura_arbol.cpp",
               "RelativeDocumentMoniker": "altura_arbol.cpp",
-              "ToolTip": "C:\\Users\\anthony\\AED_laptop\\Semana_10\\altura_arbol\\altura_arbol.cpp",
+              "ToolTip": "C:\\Users\\PC\\AED_PC\\Semana_10\\altura_arbol\\altura_arbol.cpp",
               "RelativeToolTip": "altura_arbol.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAACAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-14T20:38:54.1Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

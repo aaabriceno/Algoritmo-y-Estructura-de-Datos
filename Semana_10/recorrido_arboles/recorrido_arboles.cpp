@@ -1,59 +1,81 @@
-/*Recorrido de arboles*/
 #include <iostream>
+#include <stack>
 using namespace std;
-/*
-	Cabe recalcar que se procesa en un stack, while(mientras la pila no este vacia se
-	procesa el tope, se utiliza recursividad, y se procesa el stack, bajo el control del usuario) 
-	Se debe trrabajar por estados para que se pueda recorrer el arbol de manera correcta
--	Estado 0: Si el recorrido se hace por primera vez
--	Estado 1: Si ya se bajo por izquierda y regreso al nodo 
--	Estado 2: Si debe bajar por la derecha y regresa al nodo
--	Estado 3: Que se debe sacar
 
-struct  cx{
-	cx* n;
-	int s;
-}
-std::stack<cx> s;
-
-std::pair <char,int> uu;
-uu first = 'c';
-uu second = 7;
-std::stack <std::pair<Node*, int>> s; <---- el stack esta basado en un deque :)
-s.push ({p,z});
-
-
-existe tambien --> std::tuple<int , char, float> t;
-*/
 struct Node {
-	int valor;
-	Node* nodes[2];
-	Node(int v) {
-		valor = v;
-		nodes[0] = nodes[1] = 0;
-	}
+    int valor;
+    Node* nodes[2];
+    Node(int v) {
+        valor = v;
+        nodes[0] = nodes[1] = nullptr;
+    }
 };
 
-/*Esta funcion es un stack recursivo automatico a diferencia del caso de arriba*/
-void inorder(Node* n) { //metodo in orden tipico 
-	if (!n) return;
-	inorder(n->nodes[0]);
-	cout << n->valor;
-	inorder(n->nodes[1]);
-}
-void preorder(Node* n) { // metodo preorder tipico
-	if (!n) return;
-	cout << n->valor;
-	preorder(n->nodes[0]);
-	preorder(n->nodes[1]);
-}
-void postorder(Node* n) { // metodo postorder tipico
-	if (!n) return;
-	postorder(n->nodes[0]);
-	postorder(n->nodes[1]);
-	cout << n->valor;
+// Recorrido inorden utilizando un stack
+void inorder(Node* root) {
+    stack<Node*> s;
+    Node* current = root;
+    while (current != nullptr || !s.empty()) {
+        while (current != nullptr) {
+            s.push(current);
+            current = current->nodes[0];
+        }
+        current = s.top();
+        s.pop();
+        cout << current->valor << " ";
+        current = current->nodes[1];
+    }
 }
 
-int  main() {
+// Recorrido preorden utilizando un stack
+void preorder(Node* root) {
+    if (root == nullptr) return;
+    stack<Node*> s;
+    s.push(root);
+    while (!s.empty()) {
+        Node* current = s.top();
+        s.pop();
+        cout << current->valor << " ";
+        if (current->nodes[1]) s.push(current->nodes[1]);
+        if (current->nodes[0]) s.push(current->nodes[0]);
+    }
+}
 
+// Recorrido postorden utilizando un stack
+void postorder(Node* root) {
+    if (root == nullptr) return;
+    stack<Node*> s1, s2;
+    s1.push(root);
+    while (!s1.empty()) {
+        Node* current = s1.top();
+        s1.pop();
+        s2.push(current);
+        if (current->nodes[0]) s1.push(current->nodes[0]);
+        if (current->nodes[1]) s1.push(current->nodes[1]);
+    }
+    while (!s2.empty()) {
+        Node* current = s2.top();
+        s2.pop();
+        cout << current->valor << " ";
+    }
+}
+
+int main() {
+    Node* root = new Node(1);
+    root->nodes[0] = new Node(2);
+    root->nodes[1] = new Node(3);
+    root->nodes[0]->nodes[0] = new Node(4);
+    root->nodes[0]->nodes[1] = new Node(5);
+    root->nodes[1]->nodes[0] = new Node(6);
+    root->nodes[1]->nodes[1] = new Node(7);
+
+    cout << "Inorder: ";
+    inorder(root);
+    cout << "\nPreorder: ";
+    preorder(root);
+    cout << "\nPostorder: ";
+    postorder(root);
+    cout << endl;
+
+    return 0;
 }
