@@ -1,3 +1,4 @@
 ﻿  Grafos.cpp
-C:\Users\anthony\AED_laptop\Semana_15\Grafos\Grafos.cpp(37,20): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
-  Grafos.vcxproj -> C:\Users\anthony\AED_laptop\Semana_15\Grafos\x64\Debug\Grafos.exe
+C:\Users\PC\AED_PC\Semana_15\Grafos\Grafos.cpp(44,20): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\PC\AED_PC\Semana_15\Grafos\Grafos.cpp(68,23): warning C4267: '=': conversión de 'size_t' a 'int'; posible pérdida de datos
+  Grafos.vcxproj -> C:\Users\PC\AED_PC\Semana_15\Grafos\x64\Debug\Grafos.exe
