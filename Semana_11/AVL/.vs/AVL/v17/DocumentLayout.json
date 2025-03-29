@@ -10,7 +10,7 @@
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 100,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "AVL.cpp",
               "ToolTip": "C:\\Users\\PC\\AED_PC\\Semana_11\\AVL\\AVL.cpp",
               "RelativeToolTip": "AVL.cpp",
-              "ViewState": "AQIAAIAAAAAAAAAAAAAUwI8AAAARAAAA",
+              "ViewState": "AQIAADIAAAAAAAAAAAAUwI8AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-07-06T07:08:11.615Z",
               "EditorCaption": ""

@@ -1,0 +1,5 @@
+﻿  AVL_2.cpp
+C:\Users\PC\AED_PC\Semana_11\AVL_2\AVL_2.cpp(287,43): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\PC\AED_PC\Semana_11\AVL_2\AVL_2.cpp(292,38): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\PC\AED_PC\Semana_11\AVL_2\AVL_2.cpp(298,26): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+  AVL_2.vcxproj -> C:\Users\PC\AED_PC\Semana_11\AVL_2\x64\Debug\AVL_2.exe
